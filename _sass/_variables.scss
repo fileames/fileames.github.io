@@ -1,3 +1,11 @@
+@font-face {
+	font-family: "Bungee Shade";
+	src: url("../assets/BungeeShade-Regular.ttf");
+}
+@font-face {
+	font-family: "Barrio";
+	src: url("../assets/Barrio-Regular.ttf");
+}
 :root {
   --gray-000: #f8f9fa;
   --gray-100: #f1f3f5;
@@ -31,9 +39,10 @@
   --body-line-height: 1.5;
   --body-color: var(--gray-700);
   --body-bg: #fff;
-
-  --link-color: var(--blue);
-  --link-hover-color: #1c7ed6;
+  --title-font-size:32px;
+  --title-font:"Barrio",  sans-serif;
+  --link-color: var(--yellow);
+  --link-hover-color: var(--orange);
 
   --heading-color: var(--gray-900);
 
@@ -47,6 +56,7 @@
   --spacer: 1rem;
   --spacer-2: calc(var(--spacer) * 1.5);
   --spacer-3: calc(var(--spacer) * 3);
+  --spacer-4: calc(var(--spacer) * 2);
 }
 
 @media (prefers-color-scheme: dark) {

@@ -1,6 +1,6 @@
 # Setup
-title: Poole
-tagline: The Jekyll Butler
+title: a blog
+tagline: by elif sema balcıoğlu
 url: https://getpoole.com
 paginate: 1
 baseurl: ""
@@ -27,15 +27,27 @@ sass:
   style: :compressed
 
 # Options
+nav:
+  - title: Archive
+    url: /archive
+
+  - title: Notes
+    url: /notes
+  
+  - title: Books
+    url: /books
+
+  - title: About
+    url: /about
 
 # Replace this value and uncomment to enable Google Analytics tracking
 # ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
 author:
-  name: Mark Otto
+  name: Elif Sema Balcıoğlu
   url: https://twitter.com/mdo
-  email: markdotto@gmail.com
+  email: elifsemabalcioglu@gmail.com
 
 # Custom vars
 version: 3.0.0

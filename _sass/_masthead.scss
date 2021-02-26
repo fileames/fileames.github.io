@@ -5,19 +5,37 @@
 .masthead {
   padding-top: var(--spacer);
   padding-bottom: var(--spacer);
-  margin-bottom: var(--spacer-3);
+  margin-bottom: var(--spacer);
+  
 }
 
 .masthead-title {
   margin-bottom: 0;
 
   a {
-    color: inherit;
+    //color: inherit;
+    color: var(--orange);
+    font-family: var(--title-font);
+    font-size: var(--title-font-size);
     text-decoration: none;
   }
 
+  a.nav-title{
+    font-size: var(--body-font-size);
+    font-family: var(--body-font);
+  }
   small {
     font-weight: 400;
-    opacity: .5;
+    opacity: .9;
   }
+}
+
+// Navbar styles
+.nav {
+  float: right;
+  line-height: 1.25rem;
+  word-spacing: 1rem; 
+  padding-top: var(--spacer);
+  padding-bottom: var(--spacer);
+  margin-bottom: var(--spacer);
 }
