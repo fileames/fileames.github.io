@@ -7,8 +7,9 @@ title: About
 
 Hey there! I am Elif Sema and I am a junior computer engineering student at Boğaziçi University.
 
-I would love to connect, if you have any comments or questions here are the options to contact me:
-<p>
-<a href="https://github.com/fileames" target="_blank"><img src="/assets/social/github.svg" alt="github" width="40" /></a><a href="https://www.linkedin.com/in/elif-sema-balc%C4%B1o%C4%9Flu-70a712146/" target="_blank"><img src="/assets/social/linkedin.svg" alt="github" width="40" /></a><a href="mailto:elifsemabalcioglu@gmail.com" target="_blank"> <img src="/assets/social/email.svg" alt="linkedin" width="42"/></a></p>
-
+I would love to connect, if you have any comments or questions here are the options to contact me:   
+<br /> 
+[![email](/assets/social/gmail.svg){: style="float: left;padding-right:12px;margin-right:30px;";  height="9%" width="9%"}](mailto:elifsemabalcioglu@gmail.com)[![github](/assets/social/github.svg){: style="float: left;padding-right:12px;margin-right:30px;";  height="8%" width="8%"}](https://github.com/fileames){:target="_blank"}
+[![linkedin](/assets/social/linkedin.svg){: style="float: left;padding-right:12px;";  height="8%" width="8%"}](https://www.linkedin.com/in/elif-sema-balc%C4%B1o%C4%9Flu-70a712146/){:target="_blank"}<br /><br /><br /><br />
+Also, if you want to learn more about me, here is my [resume](https://drive.google.com/file/d/1fs2fGq2r3dWUABIZTXKccBCuvDVHjQkL/view?usp=sharing){:target="_blank"}.  
 Nice to meet you!
