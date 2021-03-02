@@ -1,8 +1,7 @@
 # Setup
 title: a blog
 tagline: by elif sema balcıoğlu 
-url: https://getpoole.com
-paginate: 1
+url: https://fileames.github.io
 baseurl: ""
 permalink: pretty
 
@@ -46,7 +45,7 @@ nav:
 # Specify the author for blog posts
 author:
   name: Elif Sema Balcıoğlu
-  url: https://twitter.com/mdo
+  url: https://github.com/fileames
   email: elifsemabalcioglu@gmail.com
 
 # Custom vars
