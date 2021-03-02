@@ -11,7 +11,7 @@ I try to add references but some of the old notes taken before this website may 
 <div id="archives">
 {% for category in site.categories %}
     {% capture category_name %}{{ category | first }}{% endcapture %}
-    {% unless category_name == "notes" %}
+    {% unless category_name == "notes" or category_name == "blog" %}
     <div class="archive-group">
         <h3 class="category-head">{{ category_name }}</h3>
         <a name="{{ category_name | slugize }}"></a>

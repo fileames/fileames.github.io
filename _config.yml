@@ -2,6 +2,7 @@
 title: a blog
 tagline: by elif sema balcıoğlu 
 url: https://fileames.github.io
+paginate: 1
 baseurl: ""
 permalink: pretty
 

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Great Repos &#35;1
+categories: blog
 permalink: /great-repos-1/
 ---
 There are incredible Github repositories created by great developers and I always want to explore more. With great ideas behind, I see people implementing and using languages different ways so everytime I see that kind of repo, I feel inspired to create more open source content and work on more projects.
