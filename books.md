@@ -10,12 +10,15 @@ One of my resolutions for 2021 is to read 20 non-CS and 10 CS related books.
 {: toc }
 
 ## non-CS Books
-Progress: 📖📖📖📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕 
+Progress: 📗📖📖📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕📕 
 
 ### Currently reading
 - Storyworthy: Engage, Teach, Persuade, and Change Your Life through the Power of Storytelling by Matthew Dicks
 - Guns, Germs, and Steel by Jared Diamond
-- Flowers for Algernon by Daniel Keyes
+
+### Finished
+
+#### Flowers for Algernon by Daniel Keyes ⭐⭐⭐⭐ - 03/2021
 
 ----
 
@@ -27,7 +30,6 @@ Progress: 📗📖📕📕📕📕📕📕📕
 
 ### Finished
 
-#### The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win by Gene Kim
-⭐⭐⭐⭐⭐ - 01/2021
+#### The Phoenix Project: A Novel about IT, DevOps, and Helping Your Business Win by Gene Kim ⭐⭐⭐⭐⭐ - 01/2021
 
 I really liked that book was structured as a novel. I learned a lot while reading an engaging book. It also has a great reading list at the end and I will continue with these to learn more about DevOps.
