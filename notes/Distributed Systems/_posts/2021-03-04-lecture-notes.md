@@ -1,8 +1,8 @@
 ---
 layout: note
-title: Lecture 2 - RPC and Threads
+title: MIT 6.824 Lecture Notes
 categories: notes 
-permalink: notes/distributed-systems/lecture-2/
+permalink: notes/distributed-systems/lecture-notes/
 
 hidden: true
 ---
@@ -123,3 +123,27 @@ Two way communication on quit channel can be used when goroutine has some cleanu
 
 **Q:** How do we avoid discarding results from slow servers?  
 **A:** Replicate the servers. Send requests to multiple replicas, and use the first response.
+
+## Lecture 3: GFS
+Storage is hard. Why?  
+- High performance -> Shard data across servers
+- Many servers -> Constant faults, crash once a year 1000 machines -> 3 failures a day
+- Fault tolerance -> Replication
+- Replication -> Inconsistencies
+- Strong consistency -> Lower performance  
+
+Ideal Consistency: Behave as a single machine. This is hard because of concurrency and failures.  
+
+**GFS**  
+Non-standard for that time:  
+- One master (Why have single point of failure?)
+- Can have inconsistencies.  
+
+GFS has to be:  
+- Big: Large data set
+- Fast: Automatic sharding
+- Global: All apps see the same file system
+- Fault tolerant: Automatic  
+
+**Design**    
+Master stores changes on logs then responds to clients. This way if master fails in between client does not see strange results.
