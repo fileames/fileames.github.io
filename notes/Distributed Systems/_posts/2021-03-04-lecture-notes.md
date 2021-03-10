@@ -147,3 +147,27 @@ GFS has to be:
 
 **Design**    
 Master stores changes on logs then responds to clients. This way if master fails in between client does not see strange results.
+
+##  Lecture 4: Primary-Backup Replication
+**Failures**  
+  
+Fail-Stop: Failure stops the computer, does not produce weird results  
+Replication won't solve logical bugs, configuration errors, malicious.  
+Can be handled: earthquake kind of disasters. If primary and backup are on different places and one is unaffected replication could help.  
+
+**Challenges**
+- Has the primary really failed? Could be a network partition. Want to avoid split-brain with two primaries.
+- Keeping primary-backup in sync, dealing with non-determinism
+- Fail-over. Failure in the middle of the operation, what to do? Multiple backups, which one to choose?  
+
+**Two Approaches**
+1. State Transfer: Transfer state changes. If operation generates a lot of state this can be expensive.
+2. Replicate State Machine (RSM): Transfer operations  
+
+**Level of Operations to Replicate**
+- Application level: Apps should be modified.
+- Machine level: Operations are ordinary computer operations. Application, OS do not have to be modified. Transparent. Can be done with hardware replication but also with virtual machines.  
+
+**VM FT**  
+[Fault-Tolerant Virtual Machines (2010)](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf)  
+Any events, external interrupts to the Vm is first captured by the hypervisor. On the paper, hypervisor not only sends it to the virtual machine but also to a logging channel to a backup.
