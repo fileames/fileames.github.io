@@ -171,3 +171,29 @@ Can be handled: earthquake kind of disasters. If primary and backup are on diffe
 **VM FT**  
 [Fault-Tolerant Virtual Machines (2010)](https://pdos.csail.mit.edu/6.824/papers/vm-ft.pdf)  
 Any events, external interrupts to the Vm is first captured by the hypervisor. On the paper, hypervisor not only sends it to the virtual machine but also to a logging channel to a backup.
+
+## Lecture 5: Fault Tolerance: Raft (1)
+2f+1 servers must be running for f+1 to be majority.  
+**Why logs:** Order, retransmission, persistence, space for tentative operations.  
+**Consensus algorithms** allow a collection of machines to work as a coherent group that can survive the failures of some of its members.
+
+**Replicated State Machines**:
+Replicated state machines are typically implemented using a replicated log. Each server stores a log containing a series of commands, which its state machine executes in order. 
+*Keeping the replicated log consistent is the job of the consensus algorithm.*  
+  
+**Raft**  
+Main goal of Raft: **understandability**. Paxos was hard to understand.  
+3 states: *leader*, *follower*, *candidate* (used to elect a new leader)  
+In normal operation there is exactly one leader and all of the other servers are followers.  
+
+Raft divides time into random length terms. Each term starts with an election. 
+   
+If a candidate wins the election, then it serves as leader for the rest of the term. In some situations an election will result in a split vote. In this case the term will end with no leader. Then new election on new term.
+
+Communication by RPC:
+- **RequestVote**: By candidate on election
+- **AppendEntries**: By leaders to replicate log entries and to provide a form of heartbeat  
+
+If a follower receives no communication over a period of time called the *election timeout*, then it assumes there is no viable leader and begins an election to choose a new leader.  
+  
+Nice visualization: [Secret Lives of Data](http://thesecretlivesofdata.com/raft/){:target="_blank"}
