@@ -28,7 +28,7 @@ Progress: 📗📖📖📕📕📕📕📕📕
 
 ### Currently reading
 - Distributed Systems by Maarten van Steen and Andrew S. Tanenbaum
-- Clean Code: A Handbook of Agile Software Craftsmanship by Robert Cecil Martin
+- [Clean Code: A Handbook of Agile Software Craftsmanship by Robert Cecil Martin]({% post_url notes/Books/2021-03-13-clean-code %})
 
 ### Finished
 

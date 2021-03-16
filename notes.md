@@ -1,9 +1,8 @@
 ---
-layout: default
-title: notes
+layout: page
+title: Notes
 ---
 
-## Notes
 
 Notes taken to keep track of the topics I learn. 
 I try to add references but some of the old notes taken before this website may not have references, sorry about that.

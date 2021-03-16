@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Great Repos &#35;1
+title: Great Repos
 categories: blog
-permalink: /great-repos-1/
+permalink: /blog/great-repos/
 ---
-There are incredible Github repositories created by great developers and I always want to explore more. With great ideas behind, I see people implementing and using languages in different ways so every time I see that kind of repo, I feel inspired to create more open source content and work on more projects.
-I want to make a blog series on the repos I really like and share them once in a while. This post is the hopefully first of many. So here are the repos I discovered recently and really like:
+
+Repos I discovered and like:
 
 - toc
 {: toc }
@@ -37,4 +37,3 @@ stonecharioteer's <a href="https://stonecharioteer.com/til.html" target="_blank"
 
 -----
 
-I had three repos to show you today, see you on the next one.

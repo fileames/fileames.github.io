@@ -3,32 +3,8 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts%}
-
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | relative_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | relative_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: relative_url }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p>Hi, I am Elif Sema and this is the website for me to remember things I learned, watched and read.</p>
+<hr/>
+<p>Look at the notes I take on various topics on the <a href="/notes/">Notes</a> page.</p>
+<p>Check out the CS and non-CS related books I read on the <a href="/books/">Books</a> page.</p>
+<p>Or learn more about me on <a href="/about/">About</a> page.</p>
